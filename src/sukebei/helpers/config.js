@@ -1,7 +1,7 @@
 const axios = require('axios')
 const https = require('https')
 
-const BASE_URL = 'https://sukebei.nyaa.si'
+const BASE_URL = 'https://net-hub.vercel.app/proxy/?url=https://sukebei.nyaa.si'
 
 module.exports = {
   url: BASE_URL,
